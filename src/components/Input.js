@@ -18,7 +18,7 @@ function Input ({ label, width, multiline, password }) {
                             <IconButton
                             edge="end"
                             >
-                            <VisibilityOff />
+                            <Visibility />
                             </IconButton>
                             : <></>
                         }
