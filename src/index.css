@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MuiInputBase-input {
+  font-weight: 500;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root {
+  border-radius: 10px;
+}
+
+.MuiInputAdornment-root {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.MuiInputAdornment-root > button {
+  padding: 12px;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.small {
+  color: #777;
+  font-size: '14px';
+}
+
+.country-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  width: 100%;
+}
+
+.country-flex > div:first-child > * {
+  margin-right: 10px;
+}
+
+.toggle {
+  .MuiSwitch-track {
+    height: 42px;
+    width: 23px;
+    border-radius: 14px;
+    transform: translate(4.5px, -15px) rotate(90deg);
+  }
+  .MuiSwitch-thumb {
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+  }
+}
+
+.MuiLinearProgress-bar, .MuiLinearProgress-root {
+  border-radius: 10px;
+  height: 5px;
+}
+
+.MuiCircularProgress-root {
+  p {
+    font-size: 10px;
+  }
+}
